@@ -1,0 +1,176 @@
+@font-face {
+    font-family: KyivType Sans Med;
+    src: url(/fonts/kyivtype-sans-medium.ttf) format('truetype');
+}   
+
+@font-face {
+    font-family: KyivType Sans regular;
+    src: url(/fonts/KyivType-Sans-Regular-.ttf) format('truetype');
+}
+@font-face {
+    font-family: KyivType Sans l;
+    src: url(/fonts/kyivtype-sans-light.ttf) format('truetype');
+}
+
+/* -----------------------------------FONT SECTION------------------------------------ */
+
+    *{
+        background-color: #f9fafb;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'KyivType Sans l', sans-serif;
+
+    }
+
+    .hero{
+        height: 10vh;
+        width: 100%;
+    }
+
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 40px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+
+    .logo{
+        color: #A09689;
+        font-size: 40px;
+        font-family: 'KyivType Sans l', sans-serif; 
+    }
+   
+    nav ul li {
+        list-style-type:none;
+        display: inline-block;
+        padding: 10px 15px;
+        
+        ;
+    }
+
+    nav ul li a {
+
+        text-decoration: none ;
+        color: #696969;
+    }
+    
+    nav ul li a:hover{
+        color: #A09689;
+    }
+
+    #Portail{
+        border: none;
+        background: #1F1F1F;
+        color: #ffff;
+        padding: 9px 35px;
+        border-radius: 11px;
+        font-size: 15px;
+    }
+
+    #Portail:hover{
+        background: #F5F5F5;
+        color: #A09689;
+        transition: .3s ;
+    }
+    /* --------------------------------------------- */
+
+/* main content */
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    position: static;
+}
+
+.container .title {
+    text-align: center;
+    margin-top: 127px;
+    font-weight: 1rem;
+
+}
+
+.btn{
+    text-align: center;
+    margin-top: 52px;
+}
+
+/* button launch app settigs */
+
+.btn #launch-app{
+    
+        border: none;
+        background: #1F1F1F;
+        color: white;
+        padding: 9px 35px;
+        border-radius: 11px;
+        font-size: 15px;
+        margin-right: 10px;
+        width: 160px;
+        font-family: KyivType Sans regular, sans-serif;
+
+}
+
+.btn #launch-app:hover{
+    background: #F5F5F5;
+    color: #A09689;
+    transition: .3s ;
+}
+
+/* button Documentationsettigs */
+
+.btn #Doc{
+    border: none;
+    background: transparent;
+    color: #CBCBCB;
+    padding: 9px 35px;
+    border-radius: 11px;
+    font-size: 15px;
+    font-family: KyivType Sans regular, sans-serif;
+}
+
+.btn #Doc:hover{
+
+    background: #1F1F1F;
+    transition: .5s ease;
+    color: white;
+    opacity: 2;
+}
+
+
+.analytics{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    position: static;
+    
+}
+
+.analytics .analytics-items{
+
+    display: flex;
+    margin-top: 50px;
+    gap: 25px;
+}
+
+.analytics .analytics-items .item-1{
+    color: #1F1F1F;
+    padding: 30px;
+}
+
+.analytics .analytics-items .item-1 #value1{
+    text-align: center;
+    padding-top: 5px;
+    font-family: KyivType Sans regular;
+    color: #A09689;
+}
+
+

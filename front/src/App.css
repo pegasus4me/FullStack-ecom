@@ -1,0 +1,306 @@
+@font-face {
+    font-family: KyivType Sans Med;
+    src: url("./assets/fonts/kyivtype-sans-medium.ttf") format('truetype');
+}   
+
+@font-face {
+    font-family: KyivType Sans regular;
+    src: url("./assets/fonts/KyivType-Sans-Regular-.ttf") format('truetype');
+}
+@font-face {
+    font-family: KyivType Sans l;
+    src: url("./assets/fonts/kyivtype-sans-light.ttf") format('truetype');
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: .5em;
+    border-bottom: 1px solid rgba(96, 78, 255, 0.274);
+}
+.img {
+    height: auto;
+    width: 150px;
+}
+
+.list1 {
+    position: relative;
+    font-family: KyivType Sans regular;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    right: 10%;
+}
+a {
+    text-decoration: none;
+    color:  rgba(108, 105, 255, 0.493);
+    font-size: 18px;
+    transition: .2s ease-in-out;
+    
+}
+a:hover{
+    color:  rgb(108, 105, 255);
+}
+a:focus{
+    color: rgb(85, 38, 255)
+}
+.list2 {
+    font-family: KyivType Sans regular;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    right: 10%;
+    transition: .2s ease-in-out;
+}
+
+/****************** REGISTER******************* */
+
+
+.container--global{
+    margin-top: 5%;
+}
+
+.titlea {
+   
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+}
+
+.container{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    border: 1px solid #E9E9E9;
+    background-color: #FAFAFA;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    padding: 2em;
+    width: 514px;
+    height: auto;
+    border-radius: 6px;
+}
+
+ input {
+    font-family:  KyivType Sans l, sans-serif;
+    padding: .8em;
+    border-radius: 3px;
+    border: 1px solid #CBD5E1;
+}
+
+ input:focus{
+    outline:none;
+}
+
+ .title {
+    font-family: KyivType Sans regular, sans-serif;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #9d9bf89c;
+}
+ .title:hover{
+    color: #64748B;
+    transition: .4s ease-in-out;
+}
+
+form p {
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    color: #64748B;
+}
+
+form .submit {
+    border: none;
+    color: #FAFAFA;
+    background-color: #966aff;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.submit:hover{
+    background-color: rgb(255, 217, 90);
+    transition: .5s ease-in-out;
+    color: #0f2a10;
+}
+
+.section-Log{
+   
+    text-align: center;
+}
+.mem {
+    text-align: center;
+    margin-top: 1em;
+    font-family: KyivType Sans regular;
+}
+
+.log{
+    text-decoration: none;
+    text-align: center;
+    font-family:  KyivType Sans regular;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #0f172a8e
+}
+.log:hover{
+    color: #0F172A;
+    transition: .4s ease-in-out;
+}
+
+/* LOGIN  */
+
+
+.login {
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+input {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* ******* */
+
+.carrousel {
+    margin-top: 1%;
+    width: 100%;
+    height: 700px;
+    border: 1px solid rgba(128, 128, 128, 0.603);
+}
+
+.diapo {
+    width: 100%;
+    background-position:center;
+}
+
+/* ----- */
+
+.title {
+    margin-top: 0;
+    background-color: rgba(169, 132, 255, 0.329);
+    padding: 10em;
+    display: flex;
+    justify-content: center;
+}
+.title h1 {
+    
+    font-size: 70px;
+    animation: flow 10s ease-in-out infinite;
+    background: linear-gradient(-60deg, #966aff, #ffffff, #ff5395, #c0c0c0);
+    background-size: 300%;
+
+    -webkit-background-clip: text;
+        background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes flow {
+    
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+
+.produit-container {
+  
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
+}
+
+.container-product {
+   text-align: center;
+    border: 1px solid rgba(153, 153, 153, 0.384);
+    margin: 1%;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.title-product {
+    font-family:  KyivType Sans regular;
+    color: #cb9eff;
+    
+}
+
+.addToBasket {
+    background: #efdcff;
+    font-family: KyivType Sans regular;
+}
+
+.desc {
+    font-size: 15px;
+    color: rgb(99, 99, 99);
+}
+
+.orderdetails {
+ display: flex;
+ flex-direction: column;
+ 
+}
+.detail {
+    font-family:KyivType Sans regular;
+    text-align: center;
+    color: #0F172A;
+}
+.infos{
+    border: 1px solid rgba(128, 128, 128, 0.308);
+    margin-top: 3%;
+}
+.a .b  {
+    font-family: 'Courier New', Courier, monospace;
+    color: white
+}
+.a .b th {
+   background:rgb(135, 105, 240);
+    width: 6em;
+}
+.not-payed {
+    color: red;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.payed {
+    color: rgb(46, 255, 27);
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.user-details{
+    text-align: center;
+    
+   padding: 1em;
+    width: 20%;
+    margin: 4% auto;
+    background-color: rgba(223, 223, 223, 0.192);
+    border-radius: 6px;
+    border: 1px solid rgb(187, 187, 187);
+}
+.user-details h2 {
+    font-family: KyivType Sans l;
+    color: #B6B5FF;
+
+}
